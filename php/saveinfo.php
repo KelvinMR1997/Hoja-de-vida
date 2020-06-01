@@ -29,7 +29,7 @@ if (isset($_POST['enviar'])) {
         die('Algo anda mal');
     }
     //mostrar mensaje
-    $_SESSION['mensaje'] = 'Sus datos han sido registrados exitosamente';
+    $_SESSION['mensaje'] = '¡Listo, Tu mensaje fue enviado 😀!';
     $_SESSION['tipo_mensaje'] = 'success';
     header('Location: ../contacto.php');   
 }

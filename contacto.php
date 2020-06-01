@@ -27,7 +27,7 @@ include("php/db.php");
         <li> <a href="index.html">Inicio</a></li>
         <li> <a href="index.html">A cerca de mi</a></li>
         <li> <a href="index.html">Servicios</a></li>
-        <li> <a href="contacto.html">Portafolio</a></li>
+        <li> <a href="contacto.php">Portafolio</a></li>
         <li> <a href="#contacto">Contactame</a></li>
 
       </ul>

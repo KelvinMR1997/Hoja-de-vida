@@ -8,12 +8,16 @@ $('.galeria_img').click(function (e) {
     })
 });
 
+// $(document.readyState)(function(e){
+//     var texto = $('texto').text()
+// })
 
 $(document).keyup(function(e){
     if (e.which==27){
         $('#modal').remove();
     }
 })
+
 
 // $('#enviar').click(function(){
 //     alertify.confirm("¿Deseas enviar este mensaje?",

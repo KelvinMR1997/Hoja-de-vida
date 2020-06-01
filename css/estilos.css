@@ -1,5 +1,6 @@
 body{
     background-color:#e3f2fd;
+
 }
 
 html{
@@ -135,10 +136,35 @@ color: #17a2b8;
     grid-template-columns: repeat(3,1fr);
 }
 
+
+
 @media(max-width:600px){
     .servicios {
         grid-template-columns: repeat(1,1fr);
     }
+}
+
+@media(max-width:942px){
+    .servicios {
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+  
+}
+
+@media(max-width:950px){
+    .servicios {
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+  
+}
+@media(max-width:990px){
+    .servicios {
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+  
 }
 
 .tercer_articulo{
@@ -286,4 +312,15 @@ color: #17a2b8;
     background-color: #55a7e21c;
 }
 
+.texto{
+    display: none;
+}
 
+.alto{
+    height: 11rem;
+}
+
+.alert-success{
+    color: #ffffff;
+    background-color: #64ade2;
+}
